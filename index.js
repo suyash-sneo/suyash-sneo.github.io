@@ -65,9 +65,22 @@ function SendRandomWordToBot() {
 	SendWordToBot(word);
 }
 
+function SendTenRandomWordsToBot() {
+	SendRandomWordToBot();
+	SendRandomWordToBot();
+	SendRandomWordToBot();
+	SendRandomWordToBot();
+	SendRandomWordToBot();
+	SendRandomWordToBot();
+	SendRandomWordToBot();
+	SendRandomWordToBot();
+	SendRandomWordToBot();
+	SendRandomWordToBot();
+}
 
 
-const job = schedule.scheduleJob('*/40 * * * * *', function(){
+
+const job = schedule.scheduleJob('0 0 0,6-23 * *', function(){
 	SendRandomWordToBot();
   });
 
