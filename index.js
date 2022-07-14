@@ -76,10 +76,10 @@ const app = express();
 
 app.use(bodyParser.json());
 app.get('/', (req, res) => {
-	res.status(200).send('WORD FEEDER BOT');
+	return res.status(200).send('WORD FEEDER BOT');
 })
 app.get('/healthcheck', (req, res) => {
-	res.status(200).send('SERVER IS LIVE')
+	return res.status(200).send('SERVER IS LIVE')
 });
 
 app.listen(port, () => {
