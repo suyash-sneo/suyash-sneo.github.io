@@ -14,66 +14,75 @@
 	</head>
 
 	<body>
-		
-		<div class="container-fluid">
-			<div class="row outline-row">
-
-				<div class="col-md-1"></div>
-				<div class="col-outline col-xs-11 col-sm-11 col-md-4 col-lg-4 sticky-top">
+		<div class="mx-auto min-h-screen max-w-screen-2xl px-6 py-12 md:px-12 md:py-20 lg:px-24 lg:py-0">
+			<div class="lg:flex lg:justify-between lg:gap-8">
+			
+				<header class="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/3 lg:flex-col lg:py-24">
 					<!-- <div class="fixed-top"> -->
 						<div class="terminal-card outline-card">
 							<header>Outline</header>
-							<h1 class="term-head">
-								Suyash Raj
-							</h1>
-							<h3 class="term-subhead col-xs-10 col-sm-10 col-md-10 col-lg-12">
-								<div>MS Computer Science<br>
-									<span class="term-sepat">@</span>UW Madison</div> 
-								<!-- <div>@ University of Wisconsin, Madison</div> -->
-							</h3>
-							<div class="short-intro-text term-text col-xs-10 col-sm-10 col-md-10 col-lg-10">
-								I build complex solution to simple problems, for mobile, web and beyond.
-							</div>
-							
-							<section>
-								<nav class="outline-links">
+							<div class="outline-card lg:top-0 lg:flex lg:justify-between lg:flex-col">
+								<div>
+									<h1 class="term-head text-4xl font-bold tracking-tight sm:text-5xl">
+										Suyash Raj
+									</h1>
+									<h2 class="term-subhead mt-3 text-2xl font-medium tracking-tight sm:text-xl">
+										<div>MS Computer Science
+											<span class="term-sepat">@</span>UW Madison</div> 
+										<!-- <div>@ University of Wisconsin, Madison</div> -->
+									</h2>
+									<p class="short-intro-text mt-3 max-w-sm leading-normal">
+										Building complex solution to simple problems, for mobile, web and beyond.
+									</p>
+								</div>
+								
+								<nav class="nav hidden lg:block outline-links" aria-label="In-page jump links">
 									<ul>
-										<li><a href="#INTRO">Intro</a></li>
-										<li><a href="#EXPERIENCE">Experience</a></li>
-										<li><a href="#PROJECTS">Projects</a></li>
+										<li><a href="#intro">Intro</a></li>
+										<li><a href="#experience">Experience</a></li>
+										<li><a href="#projects">Projects</a></li>
 									</ul>
 								</nav>
-							</section>
-							<div class="mt-auto">
-								<div class="row-center">
-									<a href="https://www.linkedin.com/in/suyash-raj-aa18b8173/" target="_blank">
-										<img class="social-icon" src="res/linkedin-100.png">
-									</a>
-									<a href="https://github.com/suyash-sneo" target="_blank">
-										<img class="social-icon" src="res/github-100.png">
-									</a>										
-									<a href="tel:608-395-5117" target="_blank">
-										<img class="social-icon" src="res/phone-100.png">
-									</a>										
-									<a href="https://play.google.com/store/apps/developer?id=Griffin+Developer+Labs" target="_blank">
-										<img class="social-icon" src="res/play-store-96.png">
-									</a>
-								</div>
+
+								<ul class="ml-1 mt-8 flex items-center">
+									<li>
+										<a href="https://www.linkedin.com/in/suyash-raj-aa18b8173/" target="_blank">
+											<img class="social-icon" src="res/linkedin-100.png">
+										</a>
+									</li>
+									<li>
+										<a href="https://github.com/suyash-sneo" target="_blank">
+											<img class="social-icon" src="res/github-100.png">
+										</a>
+									</li>
+									<li>
+										<a href="tel:608-395-5117" target="_blank">
+											<img class="social-icon" src="res/phone-100.png">
+										</a>
+									</li>
+									<li>
+										<a href="https://play.google.com/store/apps/developer?id=Griffin+Developer+Labs" target="_blank">
+											<img class="social-icon" src="res/play-store-96.png">
+										</a>
+									</li>
+								</ul>
 							</div>
+							
 						</div>
 					<!-- </div> -->
-				</div>
+				</header>
 				
-				<div class="col-xs-11 col-sm-11 col-md-6 col-lg-6 two">
-					<div class="row">
-						<h3 class="term-subhead terminal-prompt" id="INTRO">
+				<main class="pt-24 lg:w-2/3 lg:py-24">
+					<section id="intro" class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
+						<h2 class="section-head terminal-prompt text-2xl font-bold tracking-tight sm:text-xl">
 							INTRO
-						</h3>
+						</h2>
+						<br>
 						<div class="row">
 							<div class="col-md-1"></div>
 							<div class="col-md-11">
 								<p>
-									<div class="term-text">
+									<div class="term-text text-md sm:text-md">
 										Once upon a digital landscape, I embarked on a journey as a Full Stack Software Engineer with over 
 										2 years of experience, fueled by a robust educational background in computer science. Navigating
 										 through the realms of programming, I discovered the art of blending
@@ -81,7 +90,7 @@
 									</div>
 								</p>
 								<p>
-									<div class="term-text">
+									<div class="term-text text-md sm:text-md">
 										In this tech odyssey, I honed my craft by crafting efficient solutions in Golang and Java, 
 										exploring the flexibility of Python, and delving into the robustness of C. The adventure 
 										continued into the realm of server-side development using NodeJS, where I mastered the
@@ -89,19 +98,22 @@
 									</div>
 								</p>
 								<p>
-									<div class="term-text">
+									<div class="term-text text-md sm:text-md">
 										Join me on this exciting quest through the vast landscapes of code, where every line narrates 
 										a story of creativity and resilience.
 									</div>
 								</p>
 							</div>
 						</div>
-					</div>
-					<hr>
-					<div class="row">
-						<h3 class="term-subhead terminal-prompt" id="EXPERIENCE">
+					</section>
+
+					<hr><br><br>
+
+					<section id="experience" class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
+						<h1 class="section-head terminal-prompt text-2xl font-bold tracking-tight sm:text-xl">
 							EXPERIENCE
-						</h3>
+						</h1>
+						<br>
 						<div class="row">
 							<div class="col-md-3 time-range">
 								Jan 2021 - Aug 2023
@@ -113,7 +125,7 @@
 										<div class="job-spec">
 											Full Stack Engineer – US Platform Team
 										</div>
-										<div class="jd-text">
+										<div class="jd-text  text-md sm:text-md">
 											I specialized in integrating FinTech software solutions such as EllieMae,
 											MeridianLink, Symitar, Corelation, Docusign, and Fiserv 
 											with the Eltropy platform, building backend solutions in Golang, 
@@ -136,6 +148,7 @@
 								</p>
 							</div>
 						</div>
+						<br>
 						<div class="row">
 							<div class="col-md-3 time-range">
 								May 2020 - July 2020
@@ -144,7 +157,7 @@
 								<p>
 									<div class="terminal-card">
 										<header>Microsoft</header>
-										<div class="job-spec">
+										<div class="job-spec  text-md sm:text-md">
 											Software Engineering Intern – Search Technology Centre (Bing Team)
 										</div>
 										<div class="jd-text">
@@ -164,6 +177,7 @@
 								</p>
 							</div>
 						</div>
+						<br>
 						<div class="row">
 							<div class="col-md-3 time-range">
 								Jun 2019 - Aug 2019
@@ -172,7 +186,7 @@
 								<p>
 									<div class="terminal-card">
 										<header>HBCSE</header>
-										<div class="job-spec">
+										<div class="job-spec  text-md sm:text-md">
 											Software Engineering Intern
 										</div>
 										<div class="jd-text">
@@ -191,20 +205,23 @@
 									</div>
 								</p>
 							</div>
-						</div>	
-					</div>
-					<hr>
-					<div  class="row">
-						<h3 class="term-subhead terminal-prompt" id="PROJECTS">
+						</div>
+					</section>
+
+					<hr><br><br>
+
+					<section id="projects" class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
+						<h1 class="section-head terminal-prompt text-2xl font-bold tracking-tight sm:text-xl">
 							PROJECTS
-						</h3>
+						</h1>
+						<br>
 						<div class="row">
 							<div class="col-md-1"></div>
 							<div class="col-md-11">
-								<div class="job-spec">
+								<h3 class="job-spec text-lg sm:text-lg">
 									Plate Tectonics based Nearest Neighbourhood Search Optimization
-								</div>
-								<div class="jd-text">
+								</h3>
+								<div class="jd-text text-md sm:text-md">
 									<ul>
 										<li>
 											Utilizing theories from Plate Tectonics, developed a 
@@ -223,13 +240,14 @@
 								</div>
 							</div>
 						</div>
+						<br>
 						<div class="row">
 							<div class="col-md-1"></div>
 							<div class="col-md-11">
-								<div class="job-spec">
+								<h3 class="job-spec text-lg sm:text-lg">
 									Textual Exclusion – Improving Diffusion Model generations under Vague Natural Text Prompts
-								</div>
-								<div class="jd-text">
+								</h3>
+								<div class="jd-text text-md sm:text-md">
 									<ul>
 										<li>
 											Improved the text-to-image generation performance of Stable 
@@ -244,13 +262,14 @@
 								</div>
 							</div>
 						</div>
+						<br>
 						<div class="row">
 							<div class="col-md-1"></div>
 							<div class="col-md-11">
-								<div class="job-spec">
+								<h3 class="job-spec text-lg sm:text-lg">
 									Android App – Rich Text Editor
-								</div>
-								<div class="jd-text">
+								</h3>
+								<div class="jd-text text-md sm:text-md">
 									<ul>
 										<li>
 											Created Android application to write rich-text document 
@@ -262,14 +281,23 @@
 								</div>
 							</div>
 						</div>
+					</section>
+					<hr><br><br>
+					<div class="row">
+						<div class="col-md-1"></div>
+						<div class="col=md-11">
+							<footer class="text-lg text-slate-500">
+								Created with <a href="https://tailwindcss.com/">Tailwind CSS</a> and 
+								<a href="https://terminalcss.xyz/">Terminal CSS</a>.
+							</footer>
+						</div>
 					</div>
-				</div>
-				<div class="col-md-1"></div>
-
+				</main>
 			</div>
 		</div>
 
 		<script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+		<script src="https://cdn.tailwindcss.com"></script>
 	</body>
 
 </html>
