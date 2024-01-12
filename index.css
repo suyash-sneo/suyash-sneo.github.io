@@ -74,13 +74,14 @@ body {
 }
 
 .skill-box {
-	margin: 16px 24px 16px 24px ;
+	margin: 8px 24px 16px 24px ;
 }
 
 .skill-btn {
 	padding: 8px 12px 8px 12px;
-	color: #458588;
+	color: #83A598;
 	border-radius: 48px;
+	margin-top: 8px;
 }
 
 .two {
@@ -91,4 +92,16 @@ body {
 	margin-left: 24px;
 	font-size: 24px;
 	line-height: 36px;
+}
+
+.row-center {
+	margin: auto;
+	padding-top: 48px;
+	padding-left: 24px;
+}
+
+.social-icon {
+	height: 48px;
+	width: 48px;
+	margin-right: 6px;
 }
